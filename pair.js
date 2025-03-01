@@ -105,7 +105,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'Gifted~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'Woker~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
@@ -116,18 +116,18 @@ router.get('/', async (req, res) => {
 *✅𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗✅*
 *______________________________*
 *╔════◇*
-*║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐀𝐋𝐈 𝐌𝐃 』*
+*║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐖𝐎𝐊𝐄𝐑 𝐌𝐃 』*
 *║ You've Completed the First Step*
 *║ to Deploy a Whatsapp Bot.*
 *╚══════════════╝*
 ╔═════◇
 *║ 『••• 𝗩𝗜𝗦𝗜𝗧 𝗙𝗢𝗥 𝗛𝗘𝗟𝗣 •••』*
-*║❒ 𝐎𝐖𝐍𝐄𝐑:* _https://wa.me/message/TAMAX6V3VD2RG1
-*║❒ 𝐑𝐄𝐏𝐎:* _https://github.com/itx-alii-raza/ALI-MD
-*║❒ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:* _https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
+*║❒ 𝐎𝐖𝐍𝐄𝐑:* _https://wa.me/917439382677
+*║❒ 𝐑𝐄𝐏𝐎:* Repo is now private 
+*║❒ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:* _https://whatsapp.com/channel/0029Vb3NN9cGk1FpTI1rH31Z
 ║  
 ╚══════════════╝ 
- *𝗔𝗟𝗜-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 𝗢.1*
+ *𝐖𝐎𝐊𝐄𝐑 𝐌𝐃 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 𝗢.1*
 ______________________________`;
 
                     await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session });
